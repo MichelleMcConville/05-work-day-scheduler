@@ -43,7 +43,8 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  padding: 0 8px;
+  text-align: right;
+  padding: 8px 8px 0;
 }
 
 .past {
