@@ -1,7 +1,9 @@
-//Set date stamp @ top of page
+// Variables List
 var today = moment().format("dddd MMMM Do, YYYY");
 var timeAsOfNow = moment().hour();
-var tasks = [];
+var hours = $("textarea");
+var toDo = [];
+var textBox;
 
 //Set current Date in Jumbotron
 $("#currentDay").text(today);
@@ -10,21 +12,24 @@ console.log(timeAsOfNow);
 
 //Check time @ set color
 // function timeHighlight() {
-//   $(".hour").each(function () {
+//   $(".time-block").each(function () {
 //     console.log(timeAsOfNow);
 
-//     if ($("textarea").attr("id") < timeAsOfNow) {
+//     if ($(this).attr("id") < timeAsOfNow) {
 //       console.log("I am past time");
-//       $(this).classList.add("past");
-//     } else if ($("textarea").attr("id") > timeAsOfNow) {
-//       console.log("I future time");
-//       $(this).classList.add("future");
-//     } else {
-//       console.log("I am present time");
-//       $(this).classList.add("present");
+//       $(this).("past");
 //     }
-//   });
-// }
+//     if ($(this).attr("id") === timeAsOfNow) {
+//       console.log("I am present time");
+//       $(this).addClass("present");
+//     }
+//     if ($(this).attr("id") > timeAsOfNow) {
+//       console.log("I am future time");
+//       $(this).addClass("future");
+//     }
+//   }
+// )};
+
 // timeHighlight();
 
 
