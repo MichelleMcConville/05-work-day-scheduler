@@ -35,33 +35,33 @@ console.log(today);
 console.log(timeAsOfNow);
 
 //Checking time @ setting color
-// function timeHighlight() {
-//   $(".time-block").each(function () {
-//     for (var i = 0; i < hour.length; i++) {
-//       if (hour[i] < timeAsOfNow) {
-//         toDo[i].classList.add("past");
-//       } else if (hour[i] === timeAsOfNow) {
-//         toDo[i].classList.add("present");
-//       } else (hour[i] > timeAsOfNow)
-//         toDo[i].classList.add("future");
-//       }
-//     })
-//   }
-// timeHighlight();
+//  function timeHighlight() {
+//    $(".time-block").each(function () {
+//      for (var i = 0; i < hour.length; i++) {
+//        if (hour[i] < timeAsOfNow) {
+//          toDo[i].classList.add("past");
+//        } else if (hour[i] === timeAsOfNow) {
+//          toDo[i].classList.add("present");
+//        } else (hour[i] > timeAsOfNow)
+//          toDo[i].classList.add("future");
+//        }
+//      })
+//    }
+//  timeHighlight();
 
-//
-h07 = parseInt(h07[0]);
-h08 = parseInt(h08[0]);
-h09 = parseInt(h09[0]);
-h10 = parseInt(h10[0]);
-h11 = parseInt(h11[0]);
-h12 = parseInt(h12[0]);
-h13 = parseInt(h13[0]);
-h14 = parseInt(h14[0]);
-h15 = parseInt(h15[0]);
-h16 = parseInt(h16[0]);
-h17 = parseInt(h17[0]);
-h18 = parseInt(h18[0]);
+// Do I need these???
+// h07 = parseInt(h07[0]);
+// h08 = parseInt(h08[0]);
+// h09 = parseInt(h09[0]);
+// h10 = parseInt(h10[0]);
+// h11 = parseInt(h11[0]);
+// h12 = parseInt(h12[0]);
+// h13 = parseInt(h13[0]);
+// h14 = parseInt(h14[0]);
+// h15 = parseInt(h15[0]);
+// h16 = parseInt(h16[0]);
+// h17 = parseInt(h17[0]);
+// h18 = parseInt(h18[0]);
 
 //Saving ToDo list to local storage on click f(x)
 //Row for 7:00 AM
