@@ -84,7 +84,6 @@ textarea{
 .btnRow {
   display: flex;
   justify-content: center;
-  /* width: 100vw; */
 }
 
 .saveBtn {
@@ -133,13 +132,9 @@ textarea{
 /*        @Media        */
 /************************/
 
-/* @media screen and (max-width: 360px) {
-  .container{
-    padding: 0;
-  }
-  .row {
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 360px) {
+  .display-3 {
+    font-size: 50px;
   }
   .hour {
     min-width: 60px;
@@ -150,4 +145,4 @@ textarea{
   .saveBtn {
     min-width: 60px;
   }
-} */
+}
