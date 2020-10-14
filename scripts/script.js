@@ -4,13 +4,10 @@ var toDo = ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "1
 
 //Setting current Date in Jumbotron
 $("#currentDay").text(today);
-console.log(today);         //Delete after review
-console.log(timeAsOfNow);   //Delete after review
 
 //Setting color based on time
 function timeHighlight() {
   for (var i = 0; i < toDo.length; i++) {
-    console.log(toDo[i]);     //Delete after review
     if (toDo[i] < timeAsOfNow) {
       $("." + toDo[i]).addClass("past");
     }
