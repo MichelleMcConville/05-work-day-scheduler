@@ -70,11 +70,13 @@ textarea{
 .present {
   background-color: #9672cc;
   color: #2b213b;
+  font-weight: bold;
 }
 
 .future {
   background-color: rgb(134, 196, 158);
   color: #2b213b;
+  font-weight: bold;
 }
 
 /************************/
@@ -132,17 +134,58 @@ textarea{
 /*        @Media        */
 /************************/
 
+@media screen and (max-width: 767px) {
+  .display-3 {
+    font-size: 50px;
+  }
+  .hour {
+    min-width: 12%;
+  }
+  .description {
+    max-width: 72%;
+  }
+  .saveBtn {
+    min-width: 16%;
+  }
+  .clearBtn {
+    min-width: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .clearBtn {
+    font-size: 18px;
+  }
+
 @media screen and (max-width: 360px) {
   .display-3 {
     font-size: 50px;
   }
   .hour {
-    min-width: 60px;
+    min-width: 12%;
   }
   .description {
-    max-width: 240px;
+    max-width: 70%;
   }
   .saveBtn {
-    min-width: 60px;
+    min-width: 18%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .display-3 {
+    font-size: 40px;
+  }
+  .lead {
+    font-size: 15px;
+  }
+  .hour {
+    min-width: 15%;
+  }
+  .description {
+    max-width: 67%;
+  }
+  .saveBtn {
+    min-width: 18%;
   }
 }
