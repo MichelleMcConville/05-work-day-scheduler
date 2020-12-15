@@ -1,4 +1,4 @@
-# [**05-work-day-scheduler**](https://michellemcconville.github.io/05-work-day-scheduler/) :link:
+# [**05-work-day-scheduler**](https://michellemcconville.github.io/05-work-day-scheduler/) 🔗
 
 ## Customer Request
 
@@ -24,7 +24,7 @@ Create a simple `Daily Work Planner` app which:
 
 This planner used customer provided code as starter
 
-### ***HTM*** `|` [**work-day-scheduler**](https://michellemcconville.github.io/05-work-day-scheduler/) :link:
+### ***HTM*** `|` [**work-day-scheduler**](https://michellemcconville.github.io/05-work-day-scheduler/) 🔗
 
 #### 1. Used the client provided ***`index.html`*** file with the following
 
@@ -40,7 +40,7 @@ This planner used customer provided code as starter
 
 #### 2. Used the client provided ***`style.css`*** file with the following
 
-- Added the `html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
+- Added the [html5doctor.com Reset Style Sheet](http://html5doctor.com/) by [Richard Clark](http://richclarkdesign.com)
 - Updated css existing styles based on new coloring
 - Added new css for `clear calendar` button styling
 - Create the following groups:
@@ -63,10 +63,10 @@ This planner used customer provided code as starter
 
 ## Sources Referenced
 
-[google](https://www.google.com/) `|`
-[momentJs](https://momentjs.com/) `|`
-[w3schools](https://www.w3schools.com) `|`
-[MDN web docs](https://developer.mozilla.org/en-US/) `|`
+[google](https://www.google.com/) **`|`**
+[momentJs](https://momentjs.com/) **`|`**
+[w3schools](https://www.w3schools.com) **`|`**
+[MDN web docs](https://developer.mozilla.org/en-US/) **`|`**
 [Markdown Guide](https://www.markdownguide.org/)
 
 ---
